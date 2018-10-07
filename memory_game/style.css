@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pattern/nasty_fabric.png");
+
+    font-family: 'Acme', sans-serif;
+}
+
+#game_title {
+    text-align: center;
+    font-size: 46px;
+    color: #01557C;
+    margin-top: 10px;
+}
+#game_area {
+    margin:10px auto;
+    position: relative;
+    background: #01668C;
+    overflow: hidden;
+    width: 622px;
+    height: 534px;
+    border: 3px solid  #00447C;
+}
+
+.game-tile {
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: #fff url(images/znak_zapytania.jpg) center center no-repeat;
+    border: 1px solid #696969;
+}
+
+.game-tile:hover {
+    background-color: #fff;
+}
+
+#game_score {
+    text-align:center;
+}
+#game_text {
+    text-align: center;
+    color:  #01557C;
+    font-size: 20px;
+}
+.game_start {
+    background-color:  #01557C;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+    margin: 5px auto;
+    display: block;
+}
+.game_winner {
+    z-index: 2;
+    margin: 150px auto;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
